@@ -1,0 +1,4 @@
+body {
+   padding-top: 56px; /* Ajusta este valor según la altura de tu navbar */
+   z-index: 1000;
+}
