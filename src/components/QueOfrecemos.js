@@ -2,7 +2,7 @@ import React from 'react';
 
 const QueOfrecemos = () => {
   return (
-    <section id="que-ofrecemos" className="vh-100 d-flex align-items-center bg-dark">
+    <section id="que-ofrecemos" className="d-flex align-items-center bg-dark">
       <div className="container">
         <h1 className="text-center text-light">Qué Ofrecemos</h1>
         <p className="text-center text-light">

@@ -2,14 +2,13 @@ import React from 'react';
 
 const HeroCarousel = () => {
   return (
-    <div id="hero-carousel" className="carousel slide h-100 bg-secondary" data-bs-ride="carousel">
+    <div id="hero-carousel" className="carousel slide bg-secondary" data-bs-ride="carousel">
       <div className="carousel-inner h-100">
-        <div className="carousel-item active h-100">
+        <div className="carousel-item active h-100 ">
           <img
-            src="https://via.placeholder.com/800x600?text=Slide+1"
+            src="https://fakeimg.pl/640x435/ff0000/"
             className="d-block w-100 h-100"
             alt="Slide 1"
-            style={{ objectFit: 'cover' }}
           />
           <div className="carousel-caption">
             <h5>Primer Slide</h5>
@@ -18,10 +17,9 @@ const HeroCarousel = () => {
         </div>
         <div className="carousel-item h-100">
           <img
-            src="https://via.placeholder.com/800x600?text=Slide+2"
+            src="https://fakeimg.pl/640x435/ff0000/"
             className="d-block w-100 h-100"
             alt="Slide 2"
-            style={{ objectFit: 'cover' }}
           />
           <div className="carousel-caption">
             <h5>Segundo Slide</h5>
@@ -30,10 +28,9 @@ const HeroCarousel = () => {
         </div>
         <div className="carousel-item h-100">
           <img
-            src="https://via.placeholder.com/800x600?text=Slide+3"
+            src="https://fakeimg.pl/640x435/ff0000/"
             className="d-block w-100 h-100"
             alt="Slide 3"
-            style={{ objectFit: 'cover' }}
           />
           <div className="carousel-caption">
             <h5>Tercer Slide</h5>

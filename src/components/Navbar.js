@@ -2,10 +2,10 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top pt-4 ps-2 pe-3">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ps-2 pe-3">
       <div className="container">
         <a className="navbar-brand" href="/">
-          Foky-SPA
+          Template-SPA
         </a>
         <button
           className="navbar-toggler"
